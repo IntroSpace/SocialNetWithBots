@@ -1,0 +1,42 @@
+.menu {
+	background-color: #1f1f1f;
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	border-radius: 20px;
+	opacity: 0.3;
+	-webkit-transition: .2s ease-out;
+     -webkit-transition-delay: 0.2s;
+     -o-transition: .2s ease-out;
+     -o-transition-delay: 0.2s;
+     -moz-transition: .2s ease-out;
+     -moz-transition-delay: 0.2s;
+     transition: .2s ease-out;
+     transition-delay: 0.2s;
+}
+
+
+
+.menu1 {
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	position: absolute;
+	left: 5px; 
+	top: 5px;
+}
+
+.menu2 {
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	position: absolute;
+	left: 5px; 
+	top: 35px;
+}
+
+
+
+.menu:hover {
+	opacity: 1;
+}
